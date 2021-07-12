@@ -32,12 +32,12 @@ const date = dateObject.toLocaleString('es', constraintsDate);
 function onShareScreen() {
   if (!navigator.mediaDevices.getDisplayMedia) {
     alert(
-      "navigator.mediaDevices.getDisplayMedia not supported on your browser, use the latest version of Chrome"
+      "navigator.mediaDevices.getDisplayMedia no es soportado por tu navegador, usa la última versión de Firefox or Chrome"
     );
   } else {
     if (window.MediaRecorder == undefined) {
       alert(
-        "MediaRecorder not supported on your browser, use the latest version of Firefox or Chrome"
+        "MediaRecorder no es soportado en tu navegador, usa la última versión de Firefox or Chrome"
       );
     } else {
       navigator.mediaDevices.getDisplayMedia(constraints).then(function(screenStream) {
