@@ -1,0 +1,22 @@
+* {
+  font-family: 'Mali', cursive;
+  text-align: center;
+}
+
+video {
+  display: block;
+}
+
+button {
+  border: none;
+  border: 1px solid #9fe29f;
+  background-color: #9fe29f;
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(80%);
+}
